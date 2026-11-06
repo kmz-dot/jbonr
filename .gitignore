@@ -1,0 +1,16 @@
+# build output
+/jango-bulk
+/jango-bulk.exe
+/bin/
+/dist/
+
+# local data: accounts, cookies, exports
+data/
+*.csv
+bridge-sessions.json
+accounts.json
+
+# editor / OS
+.idea/
+.vscode/
+.DS_Store

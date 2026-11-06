@@ -1,0 +1,15 @@
+$ jango-bulk list
+EMAIL                              CREDITS  VERIFIED  TOKEN    COOKIE UNTIL         LAST ERROR
+jangoxii7n9et2wdw@mockmail.test    60       yes       valid    2026-12-05 00:48     
+jangokxbsswc9j55x@mockmail.test    60       yes       valid    2026-12-05 00:48     
+jango6s8xzpc6r6h9@mockmail.test    60       yes       valid    2026-12-05 00:48     
+
+3 account(s)
+
+$ jango-bulk check
+jangoxii7n9et2wdw@mockmail.test    credits=60
+jangokxbsswc9j55x@mockmail.test    credits=60
+jango6s8xzpc6r6h9@mockmail.test    credits=60
+
+$ jango-bulk export --format csv
+exported CSV -> /tmp/ex4037833382/accounts.csv

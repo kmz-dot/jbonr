@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0e14"/><stop offset="1" stop-color="#131a26"/></linearGradient>
+<linearGradient id="tg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2f81f7"/><stop offset="1" stop-color="#e5484d"/></linearGradient>
+</defs>
+<rect width="1280" height="640" fill="url(#bg)"/>
+<g transform="translate(96,180) scale(0.55)">
+<rect width="512" height="512" rx="112" fill="#0f1420"/>
+<g fill="none" stroke="#00a6ff" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+<path d="M104 168 h56 l30 66"/><path d="M104 344 h56 l30 -66"/>
+</g>
+<path d="M300 168 h106" stroke="#ff5560" stroke-width="14" stroke-linecap="round"/>
+<path d="M300 344 h106" stroke="#ff5560" stroke-width="14" stroke-linecap="round"/>
+<circle cx="256" cy="256" r="58" fill="url(#tg)"/><circle cx="256" cy="256" r="26" fill="#0f1420"/>
+<circle cx="104" cy="168" r="19" fill="#2f81f7"/><circle cx="104" cy="344" r="19" fill="#2f81f7"/>
+<circle cx="416" cy="168" r="19" fill="#e5484d"/><circle cx="416" cy="344" r="19" fill="#e5484d"/>
+</g>
+<text x="430" y="300" font-family="DejaVu Sans, Arial, sans-serif" font-size="96" font-weight="bold" fill="#f2f5f9">jango-bulk</text>
+<text x="434" y="360" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" fill="#9aa7b8">Bulk Jango AI accounts -> one 9Router endpoint</text>
+<text x="96" y="540" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#5fd17a">$ jango-bulk run -n 20 --router http://127.0.0.1:20128</text>
+<text x="96" y="584" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#6f7d8f">20 accounts created - bridge up - model jango/deepseek-v4-1-flash-uncensored</text>
+</svg>
